@@ -6,7 +6,7 @@ import "izitoast/dist/css/iziToast.min.css";
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-const apiKey = "50640022-e7ade59e431876575f1e6f3f7";
+const apiKey = "";
 
 // Отримуємо доступ до DOM-елементів
 const form = document.querySelector(".search-form");
