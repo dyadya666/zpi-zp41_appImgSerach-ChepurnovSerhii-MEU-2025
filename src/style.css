@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.search-form input {
+  width: 300px;
+  padding: 8px;
+  font-size: 1rem;
+}
+.search-form button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/* Стилі для галереї */
+.gallery {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.gallery a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.gallery img {
+  width: 100%;
+  display: block;
+}
+.info {
+  padding: 8px;
+  background-color: #f2f2f2;
+}
+.info p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+/* Спінер (індикатор завантаження) */
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+  display: none;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
